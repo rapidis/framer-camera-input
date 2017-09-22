@@ -1,5 +1,6 @@
 { CameraInput } = require "CameraInput"
 
+Photo.clip = true
 Photo.states =
 	"pressed":
 		y: 154
@@ -10,6 +11,8 @@ Photo.animationOptions =
 
 PhotoOverlay = new Layer
 	parent: Photo
+	width: 200
+	height: 200
 	borderRadius: 100
 	backgroundColor: "#000000"
 	opacity: 0
@@ -28,6 +31,7 @@ Button = new CameraInput
 	height: 200
 	borderRadius: 100
 	opacity: 0
+	accept: "image"
 	parent: Photo
 	callback: (url) -> 
 		PhotoOverlay.image = url
@@ -38,3 +42,4 @@ Button.onMouseDown (event) ->
 
 Button.onMouseUp (event) ->
 	Photo.animate("normal")
+	
