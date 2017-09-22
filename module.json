@@ -1,0 +1,8 @@
+{
+    "name": "Framer Camera Input",
+    "description": "Allows prototypes to access mobile cameras via HTML Media Capture input",
+    "author": "Vic Hsieh",
+    "require": "CameraInput = require 'CameraInput'",
+    "install": "CameraInput.coffee",
+    "example": "Example.coffee",
+}
