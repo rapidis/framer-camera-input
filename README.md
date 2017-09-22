@@ -18,6 +18,11 @@ Button = new CameraInput
 		Photo.image = url
 
 ```
+## Compatibility
+Currently, the module supports:
+- Photo via iPhone camera, iOS 11
+- Image file via desktop browser, Chrome
+
 
 <a href='https://open.framermodules.com/<MODULE NAME>'>
     <img alt='Install with Framer Modules'
