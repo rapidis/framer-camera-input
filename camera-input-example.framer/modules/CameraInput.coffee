@@ -8,7 +8,7 @@ class exports.CameraInput extends TextLayer
 			if(@options.callback)
 				file = @_element.files[0]
 				url = URL.createObjectURL(file)
-				@options.callback(url)
+				@options.callback(url, file.type)
 
 		@changeHandler = @changeHandler.bind @
 		Events.wrap(@_element).addEventListener "change", @changeHandler

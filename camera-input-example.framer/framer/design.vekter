@@ -298,32 +298,32 @@
                       "depth" : 0,
                       "inlineStyleRanges" : [
                         {
-                          "length" : 10,
+                          "length" : 19,
                           "style" : "LETTERSPACING:0",
                           "offset" : 0
                         },
                         {
-                          "length" : 10,
+                          "length" : 19,
                           "style" : "COLOR:rgb(255, 255, 255)",
                           "offset" : 0
                         },
                         {
-                          "length" : 10,
+                          "length" : 19,
                           "style" : "FONT:.SFNSText-Heavy|.SFUIText-Heavy",
                           "offset" : 0
                         },
                         {
-                          "length" : 10,
+                          "length" : 19,
                           "style" : "ALIGN:center",
                           "offset" : 0
                         },
                         {
-                          "length" : 10,
+                          "length" : 19,
                           "style" : "LINEHEIGHT:1",
                           "offset" : 0
                         },
                         {
-                          "length" : 10,
+                          "length" : 19,
                           "style" : "SIZE:20",
                           "offset" : 0
                         }
@@ -341,7 +341,7 @@
                           "SIZE:20"
                         ]
                       },
-                      "text" : "TAKE PHOTO",
+                      "text" : "TAKE PHOTO OR VIDEO",
                       "key" : "bddse",
                       "type" : "unstyled"
                     }

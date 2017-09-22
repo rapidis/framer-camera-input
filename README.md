@@ -8,14 +8,27 @@ Here is a example about how to use the module:
 
 ```javascript
 
-Button = new CameraInput
+// Image Only
+TakePhotoButton = new CameraInput
 	width: 200
 	height: 200
-	borderRadius: 100
+	opacity: 0
+	accept: "image"
+	parent: Photo
+	callback: (url, type) -> 
+		Photo.image = url
+
+// Image and Video
+TakeMediaButton = new CameraInput
+	width: 200
+	height: 200
 	opacity: 0
 	parent: Photo
-	callback: (url) -> 
-		Photo.image = url
+	callback: (url, type) -> 
+		if(type.includes("image"))
+			ImageLayer.image = url
+		else if(type.includes("video"))
+			VideoLayer.video = url
 
 ```
 ## Compatibility
