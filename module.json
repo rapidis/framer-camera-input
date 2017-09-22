@@ -4,5 +4,5 @@
     "author": "Vic Hsieh",
     "require": "CameraInput = require 'CameraInput'",
     "install": "CameraInput.coffee",
-    "example": "Example.coffee",
+    "example": "Example.coffee"
 }
